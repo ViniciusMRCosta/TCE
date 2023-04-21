@@ -1,0 +1,1 @@
+wscript.exe "caminho do arquivo\Hidden.vbs" "caminho do arquivo\RunToastHidden.cmd"

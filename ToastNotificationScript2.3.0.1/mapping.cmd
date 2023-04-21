@@ -1,0 +1,1 @@
+net use letra_da_unidade: \\caminho de rede da pasta mapeada

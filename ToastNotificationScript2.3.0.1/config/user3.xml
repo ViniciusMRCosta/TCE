@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <Feature Name="Toast" Enabled="True" />
+  <!-- Enables or disables the entire toast notification -->
+  <!-- DESATIVADOS -->
+  <Feature Name="UpgradeOS" Enabled="False" />
+  <Feature Name="PendingRebootUptime" Enabled="False" />
+  <Feature Name="PendingRebootCheck" Enabled="False" />
+  <Feature Name="ADPasswordExpiration" Enabled="False" />
+  <Option Name="TargetOS" Build="19041" />
+  <Option Name="MaxUptimeDays" Value="-6" />
+  <Option Name="PendingRebootUptimeText" Enabled="False" />
+  <Option Name="PendingRebootCheckText" Enabled="False" />
+  <Option Name="ADPasswordExpirationText" Enabled="False" />
+  <Option Name="CustomAudio" Enabled="False" />
+  <Option Name="ADPasswordExpirationDays" Value="90" />
+  <!-- Protocolos -->
+  <Option Name="RunPackageID" Enabled="False" Value="KR100907" />
+  <Option Name="RunApplicationID" Enabled="False" Value="ScopeId_A9117680-D054-482B-BC97-532E6CBD0E6B/Application_fd55f35c-4e34-4490-a3ec-ee0b79233ec6" />
+  <Option Name="RunUpdateID" Enabled="False" Value="4561600" />
+  <Option Name="RunUpdateTitle" Enabled="False" Value="" />
+  <Option Name="Deadline" Enabled="False" Value="30-09-2019 08:00" />
+  <Option Name="DynamicDeadline" Enabled="False" Value="KR1008C8" />
+  <!-- SCRIPTS -->
+  <Option Name="CreateScriptsAndProtocols" Enabled="True" />
+  <!-- Limita  o de execu  o sucessiva -->
+  <Option Name="LimitToastToRunEveryMinutes" Enabled="False" Value="5" />
+  <!-- APLICATIVO -->
+  <Option Name="CustomNotificationApp" Enabled="True" Value=" " />
+  <Option Name="UseSoftwareCenterApp" Enabled="False" />
+  <Option Name="UsePowershellApp" Enabled="False" />
+  <!-- Imagens -->
+  <Option Name="LogoImageName" Value="caminho_da_imagem_em_local_aberto\imagem.png" />
+  <Option Name="HeroImageName" Value="caminho_da_imagem2_em_local_aberto\imagem.png" />
+  <!-- Bot es de a  o -->
+  <Option Name="ActionButton1" Enabled="True" />
+  <Option Name="ActionButton2" Enabled="False" />
+  <Option Name="DismissButton" Enabled="False" />
+  <Option Name="SnoozeButton" Enabled="False" />
+  <!-- Enabling this option will always enable action button and dismiss button -->
+  <Option Name="Scenario" Type="reminder" />
+  <!-- Possible values are: reminder | short | long | alarm -->
+  <Option Name="Action1" Value="link que vai atrelado ao botao de Responder" />
+  <!-- Action taken when using the Action button. Can be any protocol in Windows -->
+  <!-- <Option Name="Action2" Value="" /> -->
+  <Text Option="GreetGivenName" Enabled="True" />
+  <Text Option="MultiLanguageSupport" Enabled="True" />
+  <en-US>
+    <!-- Default fallback language. This language will be used if MultiLanguageSupport is set to False or if no matching language is found -->
+    <Text Name="ActionButton1">Learn more</Text>
+    <!-- Text on the ActionButton if enabled -->
+    <Text Name="DismissButton">Dismiss</Text>
+    <!-- Text on the DismissButton if enabled -->
+    <Text Name="SnoozeButton">Remind later</Text>
+    <!-- <Text Name="AttributionText"></Text> -->
+    <Text Name="HeaderText">cabeçalho</Text>
+    <Text Name="TitleText">titulo</Text>
+    <Text Name="BodyText1"> Mensagem que fica no corpo da notificacao.</Text>
+    <!-- <Text Name="BodyText2"></Text> -->
+    <Text Name="SnoozeText">Remind in:</Text>
+    <Text Name="GreetMorningText">Bom dia, </Text>
+    <Text Name="GreetAfternoonText">Boa tarde, </Text>
+    <Text Name="GreetEveningText">Boa noite, </Text>
+    <Text Name="MinutesText">Minutes</Text>
+    <Text Name="HourText">Hour</Text>
+    <Text Name="HoursText">Hours</Text>
+  </en-US>
+  <pt-BR>
+    <Text Name="ActionButton1">Responder</Text>
+    <!-- Text on the ActionButton if enabled -->
+    <Text Name="DismissButton">Dispensar</Text>
+    <!-- Text on the DismissButton if enabled -->
+    <Text Name="SnoozeButton">Adiar</Text>
+    <!-- <Text Name="AttributionText"></Text> -->
+    <Text Name="HeaderText">cabeçalho</Text>
+    <Text Name="TitleText">titulo</Text>
+    <Text Name="BodyText1"> Mensagem que fica no corpo da notificacao.</Text>
+    <!-- <Text Name="BodyText2"></Text> -->
+    <Text Name="SnoozeText">Me lembre em:</Text>
+    <Text Name="GreetMorningText">Bom dia, </Text>
+    <Text Name="GreetAfternoonText">Boa tarde, </Text>
+    <Text Name="GreetEveningText">Boa noite, </Text>
+    <Text Name="MinutesText">Minutos</Text>
+    <Text Name="HourText">Hora</Text>
+    <Text Name="HoursText">Horas</Text>
+  </pt-BR>
+</Configuration>
